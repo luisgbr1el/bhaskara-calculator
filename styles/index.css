@@ -1,0 +1,62 @@
+html, body {
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	background-color: #36393f;
+	height: 90%;
+	margin: 0;
+	font-size: 18pt;
+}
+h1 {
+	font-size: 35pt;
+	stroke: black;
+}
+center {
+	padding: 0;
+ 	min-height: 100%;
+ 	margin: 0 auto 50px;
+}
+input#a, input#b, input#c {
+	width: 90px;
+	outline: none;
+	border-radius: 5px;
+	padding: 10px;
+	border: none;
+	transition: 0.1s;
+	font-size: 14pt;
+	font-family: 'Quicksand', sans-serif;
+}
+input#a:hover, input#b:hover, input#c:hover {
+	background-color: rgb(220,220,220);
+	transition: 0.1s;
+} 
+
+button {
+	border: none;
+	background-color: #36393f;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 12pt;
+	border-radius: 5px;
+	transition: 0.1s;
+	font-family: 'Quicksand', sans-serif;
+}
+button:hover {
+	background-color: #46494f;
+	color: white;
+	transition: 0.1s;
+}
+
+footer {
+  height: 10px;
+  font-size: 10pt;
+}
+
+a {
+	color: white;
+	font-weight: bolder;
+}
+
+p#delta {
+	font-size: 26pt;
+}

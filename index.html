@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Bhaskara Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<center>
+		<!-- <img id="bhaskaraImage" src="images/bhaskara.png" width="150px" style="margin-top: 10px;"> -->
+		<h1 id="title">Bhaskara Calculator</h1>
+	
+		<input type="number" id="a" placeholder='Valor "A"'></input>
+		<input type="number" id="b" placeholder='Valor "B"'></input>
+		<input type="number" id="c" placeholder='Valor "C"'></input>
+		= 0 <br> <br>
+		<button id="calc" style="cursor: pointer;" onclick="Calculate()">Calcular</button> <button style="cursor: pointer;" onclick="window.location.reload()">Limpar</button>
+		<p id="calculosDelta"></p>
+		<p id="delta"></p>
+		<p id="bhaskara"></p>
+
+	</center>
+</body>
+<script type="text/javascript" src="scripts/index.js"></script>
+<footer>
+	<center>
+		Made by <a href="https://github.com/luisgbr1el" target="_blank">Luis Gabriel</a>
+	</center>
+</footer>
+</html>
