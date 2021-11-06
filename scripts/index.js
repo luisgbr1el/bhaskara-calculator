@@ -12,8 +12,8 @@ function Calculate() {
 
 	var delta = (b * b) - (4 * a * c);
 
-	var x1 = -(b) + Math.sqrt(delta);
-	var x2 = -(b) - Math.sqrt(delta);
+	var x1 = (-(b) + Math.sqrt(delta)) / (2 * a);
+	var x2 = (-(b) - Math.sqrt(delta)) / (2 * a);
 
 	var produtoRaizes = x1 * x2;
 
