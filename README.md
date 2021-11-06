@@ -20,4 +20,5 @@ var x2 = (-(b) - Math.sqrt(delta)) / (2 * a);;
 <a href="https://luisgbr1el.github.io/bhaskara-calculator/" target="_blank">Click here</a> to visit and test **Demo**.
 
 ## Demo
-<img width="500px" src="https://user-images.githubusercontent.com/62726888/140593008-ad7c05af-ce1f-4d67-ae5f-5068fcfc732c.gif">
+
+![chrome-capture](https://user-images.githubusercontent.com/62726888/140593808-8c659967-2e49-4dc8-a3d0-bcded8f167c7.gif)
